@@ -37,8 +37,6 @@ Welcome to my GitHub portfolio! 👋 In this repository, you'll find a collectio
 
 **In-depth Project Insights:** Gain insights into the methodologies, technologies, and problem-solving approaches employed in each project, offering a deeper understanding of my development and problem-solving skills.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## Authors <a name="authors"></a>
@@ -48,16 +46,12 @@ Welcome to my GitHub portfolio! 👋 In this repository, you'll find a collectio
 - GitHub: [@githubhandle](https://github.com/mershark)
 - LinkedIn: [Profile link](https://www.linkedin.com/in/mershark/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## Future Features <a name="future-features"></a>
 
-- [ ] **Adding more projects**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Adding more projects
+- Enhacement of UI
 
 <!-- CONTRIBUTING -->
 
@@ -67,15 +61,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/mershark/Portfolio/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, you can contribute to it. You are also welcome to give it a star on GitHub.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -84,12 +74,8 @@ If you like this project, you can contribute to it. You are also welcome to give
 - Thanks to the Code Reviewer(s) for the insightful feedback.
 - Thanks to our coding partners, the morning session team, and the standup team for their cooperation.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
