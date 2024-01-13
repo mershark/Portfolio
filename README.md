@@ -39,7 +39,7 @@ Welcome to my GitHub portfolio! 👋 In this repository, you'll find a collectio
 
 <!-- AUTHORS -->
 
-## Authors <a name="authors"></a>
+## Author <a name="authors"></a>
 
 👤 **Mershark Takyi**
 
