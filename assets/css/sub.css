@@ -50,3 +50,42 @@
 .social-p {
   color: #818284;
 }
+
+/* Contact me */
+.modal--information p {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.modal--options {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+.modal--options.show {
+  display: block;
+}
+
+.contact-info {
+  display: none;
+}
+
+.contact-info.show {
+  display: block;
+}
+
+/* Projects */
+.slider--item-button {
+  color: #0f33ff;
+  margin-top: 15px;
+  width: 220px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
