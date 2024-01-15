@@ -55,7 +55,7 @@
 .modal--information p {
   cursor: pointer;
   text-decoration: underline;
-  color: blue;
+  color: #0f33ff;
 }
 
 .modal--options {
@@ -80,6 +80,8 @@
 .live-btn {
   color: #0f33ff;
   width: 120px;
+  background: transparent;
+  border: 0.1rem #0f33ff solid;
 }
 
 .button-div {
@@ -89,3 +91,5 @@
   margin-top: 15px;
   gap: 10px;
 }
+
+/* social media */
