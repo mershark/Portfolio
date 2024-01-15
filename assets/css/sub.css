@@ -77,15 +77,15 @@
 }
 
 /* Projects */
-.slider--item-button {
+.live-btn {
   color: #0f33ff;
-  margin-top: 15px;
-  width: 220px;
+  width: 120px;
 }
 
 .button-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 15px;
+  gap: 10px;
 }
