@@ -311,32 +311,80 @@
 <li class="l-section section">
   <div class="about">
     <div class="about--banner">
-      <h2>I<br>believe in<br>passionate<br>people</h2>
-      <a href="#0">Career
-        <span>
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-          <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-            <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-          </g>
-          </svg>
-        </span>
-      </a>
+        <h3 class="aboutme-h2">About me</h3>
+        <div class="row">
+          <div class="col-2 toSlideIn slideInDone">
+            <p class="aboutme-p">I am a dedicated and experienced full-stack
+               developer. With expertise in building 
+               responsive web applications, I have proficiency across the entire 
+               development lifecycle from initial design to final deployment. 
+               This allows me to create customized solutions tailored to each 
+               project's specific requirements. My specialties include React, 
+               Node.js, Ruby on Rails, and PostgreSQL, along with strong skills
+                in content management systems like WordPress and agile methodologies. 
+                I pride myself on clear communication, quick learning, and on-time
+                 deliverables. Whether refining legacy code or building a web app 
+                 from scratch, I am eager for opportunities to grow as a developer 
+                 and make an impact through delivering quality work.
+            </p>
+            <p class="aboutme-p">I am also an accomplished professional with a weal
+              h of experience in business management, sales, marketing, fund managem
+              ent, and operations management. With a proven track record in the rea
+              l estate industry in California, USA, as well as the beverage indust
+              ry in Ghana and the education industry in Nigeria, I bring a divers
+              e skillset and a deep understanding of various sectors.
+            </p>
+            <p class="aboutme-p">With my robust history in sales, marketing, operat
+              ions, and fund management, I seamlessly transitioned into the world 
+              of full-stack software development. I made the decision in 2020 to 
+              urn my part-time endeavor into a full-time pursuit, combining my l
+              ove for technology with my practical business experience.
+            </p>
+            <p class="aboutme-p">I have effectively completed over 20 impressive projects, 
+              both collaboratively and individually. These projects cover a wide range of 
+              technologies, including:
+            </p>
+            <ul class="tech-stack">
+              <li><strong>Front-end:</strong>
+                <ul>
+                  <li class="tech-stack-li">HTML</li>
+                  <li class="tech-stack-li">CSS</li>
+                  <li class="tech-stack-li">JavaScript</li>
+                  <li class="tech-stack-li">React</li>
+                  <li class="tech-stack-li">Redux</li>
+                </ul>
+              </li>
+            
+              <li><strong>Back-end:</strong>
+                <ul>
+                  <li class="tech-stack-li">Ruby</li>
+                  <li class="tech-stack-li">Ruby on Rails</li>
+                  <li class="tech-stack-li">MySQL</li>
+                  <li class="tech-stack-li">PostgreSQL</li>
+                </ul>
+              </li>
+
+              <li><strong>Tools & Methods:</strong>
+                <ul>
+                  <li class="tech-stack-li">Git</li>
+                  <li class="tech-stack-li">GitHub</li>
+                  <li class="tech-stack-li">Chrome Dev Tools</li>
+                  <li class="tech-stack-li">WordPress</li>
+                  <li class="tech-stack-li">Scrum Methodology</li>
+                </ul>
+              </li>
+            </ul>            
+          </div>
+        </div>
       <img src="assets/img/about-visual.png" alt="About Us">
     </div>
-    <div class="about--options">
-      <a href="#0">
-        <h3>Winners</h3>
-      </a>
-      <a href="#0">
-        <h3>Philosophy</h3>
-      </a>
-      <a href="#0">
-        <h3>History</h3>
-      </a>
+    <div class="scroll-indicator">
+      <p>hold & drag page to read more <br> scrolling will switch pages</p>
+      <div class="arrow-down"></div>
     </div>
   </div>
 </li>
-
+    
 <!-- Contact info -->
 <li class="l-section section">
   <div class="contact">
@@ -350,7 +398,7 @@
 
             <textarea id="message" name="message" placeholder="Message" required></textarea>
 
-            <button class="form-btn" type="button" onclick="submitForm()">Submit</button>
+            <button class="live-btnn" type="button" onclick="submitForm()">Submit</button>
           </form>
           <p id="successMessage" style="display: none;">Thank you! Message has been received. I will get back to you shortly.</p>
         </div>
@@ -449,7 +497,7 @@
           <label for="hireEmail">Email</label>
         </div>
       </div>
-      <input type="submit" value="Send Request" onclick="submitHireForm()">
+      <input class="live-btnn" type="submit" value="Send Request" onclick="submitHireForm()">
     </form>
     <div id="successMessage" style="display:none;">
       <p>Thank you! Your message has been sent.</p>
@@ -474,6 +522,6 @@
 <script src="assets/js/functions-min.js"></script>
 <script src="assets/js/form-script.js"></script>
 <script src="assets/js/hire-form-script.js"></script>
-
+<script src="assets/js/scroll-handler.js"></script>
 </body>
 </html>

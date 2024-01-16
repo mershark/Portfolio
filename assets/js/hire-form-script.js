@@ -1,16 +1,15 @@
 function isValidEmail(email) {
-  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
 
 function submitHireForm() {
+  const name = document.getElementById('hireName').value;
+  const email = document.getElementById('hireEmail').value;
 
-  var name = document.getElementById("hireName").value;
-  var email = document.getElementById("hireEmail").value;
-
-  // Validate 
+  // Validate
   if (name.trim() === '' || email.trim() === '') {
-    alert("Please fill out Name and Email before submitting.");
+    alert('Please fill out Name and Email before submitting.');
     return;
   }
 
@@ -31,54 +30,46 @@ function submitHireForm() {
   }
 
   if (!isValidEmail(email)) {
-    alert("Invalid email");
-    return; 
+    alert('Invalid email');
+    return;
   }
 
-  // Show success  
-  document.getElementById("hireForm").style.display = "none";
-  document.getElementById("hireSuccessMessage").style.display = "block";
-
+  // Show success
+  document.getElementById('hireForm').style.display = 'none';
+  document.getElementById('hireSuccessMessage').style.display = 'block';
 }
 
 // Form reference
 const form = document.getElementById('hireForm');
 
 // H2 element
-const header = document.querySelector('.hey-text'); 
+const header = document.querySelector('.hey-text');
 
 // Original and success text
 const originalText = header.innerHTML;
 const successText = 'Thank you! Your request has been received.';
 
 // Form submit handler
-form.addEventListener('submit', e => {
-
+form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   // Validate
   if (isValid()) {
-    
     // Hide form, show success
     form.style.display = 'none';
     header.innerHTML = successText;
-
   } else {
-
     alert('Please fill out correctly');
-
   }
-
 });
 
-// Validation 
+// Validation
 function isValid() {
-
-  var name = document.getElementById("hireName").value;
-  var email = document.getElementById("hireEmail").value;
+  const name = document.getElementById('hireName').value;
+  const email = document.getElementById('hireEmail').value;
 
   if (name.trim() === '' || email.trim() === '') {
-    alert("Please fill out Name and Email before submitting.");
+    alert('Please fill out Name and Email before submitting.');
     return false;
   }
 
@@ -88,7 +79,7 @@ function isValid() {
   for (let i = 0; i < checkboxes.length; i++) {
     if (checkboxes[i].checked) {
       checked = true;
-      break;  
+      break;
     }
   }
 
@@ -98,10 +89,9 @@ function isValid() {
   }
 
   if (!isValidEmail(email)) {
-    alert("Invalid email");
+    alert('Invalid email');
     return false;
   }
 
   return true;
-
 }
