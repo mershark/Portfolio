@@ -93,3 +93,53 @@
 }
 
 /* social media */
+
+/* Contact Form */
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80vw;
+}
+
+.custom-form label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.custom-form input, .custom-form textarea {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  color: #555;
+  font-size: 14px;
+}
+
+.form-btn {
+  background-color: #0f33ff;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #001a66;
+}
+
+#successMessage {
+  color: white;
+  font-weight: bold;
+  display: none;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
