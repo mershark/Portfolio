@@ -13,7 +13,7 @@
 }
 
 .intro-h2 {
-  color: #0f87ff;
+  color: #0f33ff;
 }
 
 .fun-fact {
@@ -56,7 +56,7 @@
   color: #818284;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 4s steps(40, end) infinite;
+  animation: typing 4s steps(40, end) ;
   border-right: 1px solid #000;
 }
 
