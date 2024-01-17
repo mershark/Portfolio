@@ -1,4 +1,3 @@
-// JavaScript file (e.g., hire-form-script.js)
 function validateForm() {
   var checkboxes = document.querySelectorAll('input[type="checkbox"][name="options"]:checked');
   
