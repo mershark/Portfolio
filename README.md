@@ -5,6 +5,9 @@
 
 Welcome to my GitHub portfolio! 👋 In this repository, you'll find a collection of projects that showcase my passion for coding and problem-solving. From planning to deployment, each project reflects my dedication to creating meaningful and impactful solutions.
 
+## Live Demo <a name="live-demo"></a>
+[Click here to view](https://mershark.github.io/Portfolio/)
+
 ## Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
