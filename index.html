@@ -411,7 +411,7 @@
       </svg>
       ! What would you like me to do for you?
     </h2>
-    <form class="work-request" id="hireForm" action="https://formspree.io/f/xjvnkpqa" method="POST">
+    <form class="work-request" id="hireForm" action="https://formspree.io/f/xjvnkpqa" method="POST" onsubmit="return validateForm()">
       <div class="work-request--options">
         <div class="work-request">
             <span class="options-a">
@@ -482,11 +482,11 @@
         </div>     
       <div class="work-request--information">
         <div class="information-name">
-          <input id="hireName" type="text" name="Name" spellcheck="false">
+          <input id="hireName" type="text" name="Name" spellcheck="false" required>
           <label for="hireName">Name</label>
         </div>
         <div class="information-email">
-          <input id="hireEmail" type="email" name="email" spellcheck="false">
+          <input id="hireEmail" type="email" name="email" spellcheck="false" required>
           <label for="hireEmail">Email</label>
         </div>
       </div>
@@ -514,5 +514,6 @@
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
 <script src="assets/js/scroll-handler.js"></script>
+<script src="assets/js/hire-form-script.js"></script>
 </body>
 </html>
