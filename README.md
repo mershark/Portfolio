@@ -1,5 +1,5 @@
 <!-- PROJECT DESCRIPTION -->
-![Mershark-Oheneba-Takyi-Full-Stack-Software-Engineer-Developer](https://github.com/mershark/Portfolio/assets/113654948/9336f917-06c6-46a1-9ef8-ecf64c230103)
+![Mershark-Oheneba-Takyi-Full-Stack-Software-Engineer-Developer](https://github.com/mershark/Portfolio/assets/113654948/acd514b8-aad5-443e-9e65-1e5a8a7103da)
 
 # Mershark's Portfolio<a name="about-project"></a>
 
