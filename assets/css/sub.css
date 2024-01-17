@@ -13,11 +13,16 @@
 }
 
 .intro-h2 {
+  color: #0f87ff;
+}
+
+.fun-fact {
   color: #0f33ff;
+  font-style: italic;
 }
 
 .intro-h2-1 {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: 50;
 }
@@ -49,6 +54,19 @@
 
 .social-p {
   color: #818284;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end) infinite;
+  border-right: 1px solid #000;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* Contact me */
@@ -188,19 +206,15 @@
 }
 
 .tech-stack-li {
-  margin-left: 10px;
+  color: #c5c5c5;
 }
 
 ul.tech-stack {
   display: flex;
   list-style: none;
-
-  /* margin: 0; */
   padding: 20px;
-  background-color: white;
-
-  /* border-radius: 8px; */
-  gap: 30px;
+  padding-left: 0;
+  gap: 20px;
 }
 
 ul.tech-stack > li {
@@ -361,10 +375,9 @@ ul.tech-stack li {
 }
 
 /* Scroll bar */
-
 /* For Webkit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
-  width: 8px; /* Set the width of the scrollbar */
+  width: 3px; /* Set the width of the scrollbar */
 }
 
 ::-webkit-scrollbar-thumb {
