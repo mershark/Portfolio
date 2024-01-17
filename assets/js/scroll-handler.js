@@ -1,26 +1,26 @@
 // scroll-handler.js
 
-var aboutBanner = document.querySelector('.about--banner');
+const aboutBanner = document.querySelector('.about--banner');
 
 if (aboutBanner) {
-  var isDragging = false;
-  var startY;
-  var startScrollTop;
+  let isDragging = false;
+  let startY;
+  let startScrollTop;
 
-  aboutBanner.addEventListener('mousedown', function (event) {
+  aboutBanner.addEventListener('mousedown', (event) => {
     isDragging = true;
     startY = event.clientY;
     startScrollTop = aboutBanner.scrollTop;
   });
 
-  window.addEventListener('mousemove', function (event) {
+  window.addEventListener('mousemove', (event) => {
     if (isDragging) {
-      var deltaY = event.clientY - startY;
+      const deltaY = event.clientY - startY;
       aboutBanner.scrollTop = startScrollTop - deltaY;
     }
   });
 
-  window.addEventListener('mouseup', function () {
+  window.addEventListener('mouseup', () => {
     isDragging = false;
   });
 }
